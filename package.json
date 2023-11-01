@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/react-slick": "^0.23.11",
+    "clsx": "^2.0.0",
     "lucide-react": "^0.290.0",
     "next": "14.0.0",
     "next-auth": "^4.24.3",
