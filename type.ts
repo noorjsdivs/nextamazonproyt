@@ -10,3 +10,18 @@ export interface ProductType {
   category: string;
   quantity: number;
 }
+
+export interface ItemProps {
+  item: ProductType;
+}
+
+export interface StateProps {
+  pro: {
+    productData: ProductType[];
+    userInfo: {};
+    orderData: {
+      order: ProductType[];
+    };
+    favoriteData: ProductType[];
+  };
+}
